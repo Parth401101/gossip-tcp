@@ -29,7 +29,7 @@ it uses Wireless ad hoc networks to simulate a peer-to-peer network.
 
 ps i have also created an output_500.log file it is just the output if you choose to run it                                                     
 it takes some time to log out all the things so i added it incase                                                        
-i have tried running the simulation with 10000 nodes but it is just very slow and even after 1/2 it was not completed we will see what to do abt that part afterwards                           
+i have tried running the simulation with 10000 nodes but it is just very slow and even after 1/2 it was not completed we will see what to do abt that part afterwards (i will try to find the max limit tho when i have implemnted 2 ways communication for the nodes)                                                                                                          
 this implementation is not the final for the networking part will have to make manny optimizations and all                    
 
 Any form of feedback would be good i will rebuild/resturcture the entire thing if it doesnt match your vision with the simulation just let me know :)
