@@ -25,7 +25,7 @@ it uses Wireless ad hoc networks to simulate a peer-to-peer network.
 ## Installation
 
 1. Install ns-3 following the (https://www.nsnam.org/wiki/Installation](https://www.nsnam.org/releases/ns-3-44/)
-2. Run it  ``` ./ns3 run scratch/P2Pool-v2 ```
+2. Run it  ``` ./ns3 run scratch/P2Pool_v2 ```
 
 ps i have also created an output_500.log file it is just the output if you choose to run it                                                     
 it takes some time to log out all the things so i added it incase                                                        
