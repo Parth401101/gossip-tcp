@@ -137,7 +137,7 @@ void MinerApp::MineShare() {
 }
 
 int main(int argc, char *argv[]) {
-    uint32_t numNodes = 5000;
+    uint32_t numNodes = 1000;
     uint32_t numPeers = 8;
     double stopTime = 20.0;
 
