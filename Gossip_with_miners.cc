@@ -250,7 +250,7 @@ class MinerApp : public Application {
 int main(int argc, char *argv[]) {
     
     
-    srand(time(NULL)); // ✅ Seed the RNG only once at the beginning
+    srand(time(NULL)); 
     
     
     uint32_t numNodes = 20;
@@ -329,7 +329,7 @@ int main(int argc, char *argv[]) {
         std::cout << "  Node " << pair.first << ": " << pair.second << " blocks\n";
     }
     
-    // Alternative way to count total blocks (by counting unique blocks in the network)
+   
     std::unordered_set<std::string> uniqueBlocks;
     for (auto& app : gossipApps) {
         const auto& messages = app->GetReceivedMessages();
